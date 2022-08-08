@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "neptune-mutual-demo-ecdavid",
+  "scripts": {
+    "start": "next dev",
+    "pin": "sh -c '{ for X in {core,metamask,types,url}; do lerna add @web3-react/$X --exact --no-bootstrap --scope=neptune-mutual-demo-ecdavid; done }'"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@ethersproject/bignumber": "^5.6.0",
+    "@ethersproject/experimental": "^5.6.0",
+    "@ethersproject/providers": "^5.6.0",
+    "@ethersproject/units": "^5.6.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.3",
+    "@web3-react/core": "8.0.35-beta.0",
+    "@web3-react/metamask": "8.0.28-beta.0",
+    "@web3-react/types": "8.0.20-beta.0",
+    "lodash": "^4.17.21",
+    "next": "^12.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "typescript": "^4.7.4"
+  }
+}
